@@ -1,0 +1,46 @@
+/* Base Css */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.mailchimp_form {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.mailchimp_form h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.mailchimp_form form input {
+    padding: 5px 12px;
+    border: 1px solid #00d4f1;
+}
+
+.mailchimp_form form input[type=submit] {
+    border: none;
+    background: #0cceec;
+    padding: 6px 13px;
+    margin-left: -4px;
+}
